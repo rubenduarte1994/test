@@ -859,4 +859,14 @@ body {
   .intro-button {
     margin-top: 20px;
   }
+  @keyframes blink {
+    100% {
+      color: #ff0000;
+    } /* Azul */ Azul */
+  }
+  .alert {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    animation: blink infinite 1s;
+  }
 }
